@@ -13,6 +13,7 @@ jobs:
           - '2.7'
           - '3.0'
           - head
+          - truffleruby-head
         os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
